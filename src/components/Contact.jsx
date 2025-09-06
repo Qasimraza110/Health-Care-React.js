@@ -1,4 +1,4 @@
-// src/components/Contact.jsx
+
 import { useState } from "react";
 
 const Contact = () => {
@@ -73,3 +73,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
