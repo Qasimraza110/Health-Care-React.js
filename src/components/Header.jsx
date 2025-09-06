@@ -7,8 +7,8 @@ const Header = () => {
     address: "",
     phone: "",
   });
-  const [submitting, setSubmitting] = useState(false); // submission state
-  const [success, setSuccess] = useState(false); // success message
+  const [submitting, setSubmitting] = useState(false); 
+  const [success, setSuccess] = useState(false); 
 
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -106,3 +106,4 @@ const Header = () => {
 };
 
 export default Header;
+
