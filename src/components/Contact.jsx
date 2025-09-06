@@ -1,18 +1,23 @@
-
 import { useState } from "react";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [submitting, setSubmitting] = useState(false);
+  const [success, setSuccess] = useState(false); 
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitting(true);
+    setSuccess(false);
+
     setTimeout(() => {
       setSubmitting(false);
-      alert("Message sent!");
+      setSuccess(true);
+      setForm({ name: "", email: "", message: "" });
+
+      setTimeout(() => setSuccess(false), 3000);
     }, 2000);
   };
 
@@ -67,10 +72,16 @@ const Contact = () => {
             {submitting ? "Sending..." : "Send Message"}
           </button>
         </form>
+
+        
+        {success && (
+          <p className="text-green-600 font-semibold mt-4 text-center animate-fadeIn">
+            ✅ Message sent successfully!
+          </p>
+        )}
       </div>
     </section>
   );
 };
 
 export default Contact;
-
