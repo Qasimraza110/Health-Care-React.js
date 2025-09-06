@@ -5,17 +5,17 @@ const doctorsData = [
   {
     name: "Dr. Emily Smith",
     specialty: "Cardiologist",
-    img: "/src/assets/doctor-3.jpg", 
+    img: "/doctor-3.jpg", 
   },
   {
     name: "Dr. James Anderson",
     specialty: "Neurosurgeon",
-    img: "/src/assets/doctor-2.jpg",
+    img: "/doctor-2.jpg",
   },
   {
     name: "Dr. Michael Lee",
     specialty: "Dermatologist",
-    img: "/src/assets/doctor-1.jpg",
+    img: "/doctor-1.jpg",
   },
 ];
 
@@ -52,3 +52,4 @@ const Doctors = () => {
 };
 
 export default Doctors;
+
