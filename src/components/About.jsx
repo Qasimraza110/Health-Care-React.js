@@ -14,10 +14,11 @@ const About = () => {
         </p>
       </div>
       <div className="flex justify-center">
-        <img src="/src/assets/about.jpeg" alt="about" className="rounded-lg max-w-sm" />
+        <img src="/about.jpeg" alt="about" className="rounded-lg max-w-sm" />
       </div>
     </section>
   );
 };
 
 export default About;
+
