@@ -7,8 +7,8 @@ const Header = () => {
     address: "",
     phone: "",
   });
-  const [submitting, setSubmitting] = useState(false); 
-  const [success, setSuccess] = useState(false); 
+  const [submitting, setSubmitting] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -18,7 +18,6 @@ const Header = () => {
     setSubmitting(true);
     setSuccess(false);
 
-    // Simulate API request
     setTimeout(() => {
       setSubmitting(false);
       setSuccess(true);
@@ -27,7 +26,10 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[url('/src/assets/header.jpg')] bg-cover bg-center relative min-h-[80vh] flex items-center">
+    <header
+      className="bg-[url('/header.jpg')] bg-cover bg-center relative 
+                 min-h-[90vh] flex items-center pt-24" // ✅ pt-24 = navbar ki height ka gap
+    >
       {/* Overlay */}
       <div className="absolute inset-0 bg-teal-500/60"></div>
 
@@ -87,7 +89,9 @@ const Header = () => {
             type="submit"
             disabled={submitting}
             className={`bg-orange-500 text-white py-3 rounded transition font-medium ${
-              submitting ? "opacity-50 cursor-not-allowed" : "hover:bg-orange-600"
+              submitting
+                ? "opacity-50 cursor-not-allowed"
+                : "hover:bg-orange-600"
             }`}
           >
             {submitting ? "Booking..." : "Book Appointment"}
@@ -106,4 +110,3 @@ const Header = () => {
 };
 
 export default Header;
-
