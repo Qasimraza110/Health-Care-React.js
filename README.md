@@ -2,7 +2,7 @@
 
 A modern, responsive healthcare landing page built with React and Tailwind CSS. This project demonstrates a clean, interactive UI suitable for clinics, hospitals, or healthcare startups. Fully component-based for scalability and easy customization.
 
-🌟 Features
+🌟 Features    
 
 Responsive Design: Optimized for desktop, tablet, and mobile screens.
 
