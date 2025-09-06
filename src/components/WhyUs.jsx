@@ -22,7 +22,7 @@ const WhyUs = () => {
   return (
     <section id="blog" className="max-w-6xl mx-auto p-10 grid md:grid-cols-2 gap-8 items-center">
       <div className="flex justify-center">
-        <img src="/src/assets/choose-us.jpg" alt="why choose us" className="rounded-lg max-w-sm" />
+        <img src="/choose-us.jpg" alt="why choose us" className="rounded-lg max-w-sm" />
       </div>
       <div className="space-y-6">
         <h2 className="text-3xl font-semibold mb-4">Why Choose Us</h2>
@@ -46,3 +46,4 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+
