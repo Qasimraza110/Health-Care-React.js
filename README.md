@@ -26,7 +26,7 @@ Styling: Tailwind CSS
 
 Icons: react-icons
 
-Routing: react-router-dom (if multi-page setup needed)
+Routing: react-router-dom 
 
 Smooth Scroll: react-scroll
 
