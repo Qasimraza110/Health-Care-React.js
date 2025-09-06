@@ -1,4 +1,4 @@
-// src/components/Navbar.jsx
+
 import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link as ScrollLink } from "react-scroll";
@@ -70,3 +70,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
