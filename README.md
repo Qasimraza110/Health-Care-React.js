@@ -6,7 +6,7 @@ A modern, responsive healthcare landing page built with React and Tailwind CSS. 
 
 Responsive Design: Optimized for desktop, tablet, and mobile screens.
 
-Smooth Scrolling: Navigate through sections effortlessly with React Scroll.
+Smooth Scrolling: Navigate through sections effortlessly with React Scroll. 
 
 Interactive Navbar: Sticky Navbar with scroll highlighting and mobile menu toggle.
 
