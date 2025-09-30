@@ -32,10 +32,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-primary text-white p-4 text-center mt-4">
-        Copyright © 2023 Web Design Mastery. All rights reserved.
+        Copyright © 2025 SQ Health-Care. All rights reserved.
       </div>
     </footer>
   );
 };
 
 export default Footer;
+
